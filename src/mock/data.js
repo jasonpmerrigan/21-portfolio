@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'Location: Dublin, Ireland',
-  paragraphTwo: 'Technologies used: HTML, CSS, JS, React, SQL',
+  paragraphTwo: 'Technologies used: HTML, CSS, JavaScript, React, MySQL',
   paragraphThree: 'Current Role: 2nd Level Support for VSware',
   resume: 'https://drive.google.com/file/d/1B0vfamvQFY3NgyfsDA9xMJhIYJUTclOx/view?usp=sharing',
 };
