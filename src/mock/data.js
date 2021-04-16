@@ -10,18 +10,18 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Jason Merrigan',
+  subtitle: 'Aspiring Frontend Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'Location: Dublin, Ireland',
+  paragraphTwo: 'Technologies used: HTML, CSS, JS, React, SQL',
+  paragraphThree: 'Current Role: 2nd Level Support for VSware',
+  resume: 'https://drive.google.com/file/d/1B0vfamvQFY3NgyfsDA9xMJhIYJUTclOx/view?usp=sharing',
 };
 
 // PROJECTS DATA
@@ -29,37 +29,20 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'Cocktail DB 🍸',
+    info:
+      'Tired of drinking the same old Beers, Craftys or Cocktails? Spice up your lockdown with my Cocktails Database! ',
+    info2: ' Built with React ⚛️',
+    url: 'https://drinks-deployed-with-terminal.netlify.app/',
+    repo: 'https://github.com/merriganj/Drinks-DB',
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Drop me an email',
+  btn: 'jasonpmerrigan@gmail.com',
+  email: 'jasonpmerrigan@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +50,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
+      name: 'github',
+      url: 'https://github.com/merriganj',
     },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: '',
+      url: 'https://ie.linkedin.com/in/jason-merrigan-3a3562146',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
