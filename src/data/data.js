@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Jason Merrigan',
-  subtitle: 'Web Developer 💻',
+  subtitle: 'Web Developer',
   cta: '',
 };
 
@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'cocktail_db.jpg',
     title: 'Cocktail DB 🍸',
     info:
       'Tired of drinking the same old Beers, Craftys or Cocktails? Spice up your lockdown with my Cocktails Database! ',
@@ -39,12 +39,12 @@ export const projectsData = [
 
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Dark Theme 🌚',
-    info: '',
-    info2: 'Built with React',
-    url: 'https://drinks-deployed-with-terminal.netlify.app/',
-    repo: 'https://github.com/merriganj/Drinks-DB',
+    img: 'dark_theme.png',
+    title: 'Dark Theme 🌗',
+    info: 'A simple Toggle Light/Dark Theme',
+    info2: 'Built with React, using localStorage, conditional operators, JSX and CSS Variables',
+    url: 'https://dark-theme-toggle-react.netlify.app/',
+    repo: 'https://github.com/merriganj/simple-dark-theme-react-js',
   },
 ];
 
