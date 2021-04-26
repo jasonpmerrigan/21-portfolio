@@ -28,12 +28,22 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'movie_db.png',
+    title: 'Movie DB 🍿',
+    info:
+      'Search for Movies by Title and Year. When the user clicks on the Movie Poster, they will be redirected to an info page, this was achieved with React Router.',
+    info2: 'UseContext, ReactRouter, Custom Hooks',
+    url: 'https://movie-db-search-react.netlify.app',
+    repo: 'https://github.com/merriganj/movie-db',
+  },
+  {
+    id: nanoid(),
     img: 'cocktail_db.jpg',
     title: 'Cocktail DB 🍸',
     info:
       'Tired of drinking the same old Beers, Craftys or Cocktails? Spice up your lockdown with my Cocktails Database! ',
     info2: 'UseContext, ReactRouter',
-    url: 'https://drinks-deployed-with-terminal.netlify.app/',
+    url: 'https://drinks-db-search-react.netlify.app/',
     repo: 'https://github.com/merriganj/Drinks-DB',
   },
 
