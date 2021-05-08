@@ -28,8 +28,30 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'github_search.png',
+    title: 'Github User Search',
+    info:
+      'Sign in with auth0 authentication and search for your favorite github users, or yourself. Display User, Followers, Languages, Most Popular Repos and more with FusionCharts',
+    info2: 'Auth0 User Authentication, LocalStorage UseContext, ReactRouter, FusionCharts',
+    url: 'https://github-user-search-react-auth0.netlify.app/',
+    repo: 'https://github.com/merriganj/react-github-user-search',
+  },
+
+  {
+    id: nanoid(),
+    img: 'hacker_news.png',
+    title: 'Hacker News 📰',
+    info:
+      'Search for news articles with pagination and remove articles from original fetch with .filter()',
+    info2: 'Pagination, useContext, useEffect, useReducer',
+    url: 'https://hacker-news-api-react-jason-merrigan.netlify.app/',
+    repo: 'https://github.com/merriganj/hacker_news',
+  },
+
+  {
+    id: nanoid(),
     img: 'movie_db.png',
-    title: 'Movie DB 🍿',
+    title: 'Movie Search 🍿',
     info:
       'Search for Movies by Title and Year. When the user clicks on the Movie Poster, they will be redirected to an info page, this was achieved with React Router.',
     info2: 'UseContext, ReactRouter, Custom Hooks',
@@ -39,9 +61,9 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'cocktail_db.jpg',
-    title: 'Cocktail DB 🍸',
+    title: 'Cocktail Maker 🍸',
     info:
-      'Tired of drinking the same old Beers, Craftys or Cocktails? Spice up your lockdown with my Cocktails Database! ',
+      'Tired of drinking the same old Beers, Craftys or Cocktails? Spice up your lockdown with my Cocktails Database ',
     info2: 'UseContext, ReactRouter',
     url: 'https://drinks-db-search-react.netlify.app/',
     repo: 'https://github.com/merriganj/Drinks-DB',
@@ -52,7 +74,7 @@ export const projectsData = [
     img: 'dark_theme.png',
     title: 'Dark Theme 🌗',
     info: 'A simple Toggle Light/Dark Theme',
-    info2: 'Built with React, using localStorage, conditional operators, JSX and CSS Variables',
+    info2: 'LocalStorage, Conditional Operators, JSX and CSS Variables',
     url: 'https://dark-theme-toggle-react.netlify.app/',
     repo: 'https://github.com/merriganj/simple-dark-theme-react-js',
   },
