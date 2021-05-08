@@ -39,17 +39,6 @@ export const projectsData = [
 
   {
     id: nanoid(),
-    img: 'hacker_news.png',
-    title: 'Hacker News 📰',
-    info:
-      'Search for news articles with pagination and remove articles from original fetch with .filter()',
-    info2: 'Pagination, useContext, useEffect, useReducer',
-    url: 'https://hacker-news-api-react-jason-merrigan.netlify.app/',
-    repo: 'https://github.com/merriganj/hacker_news',
-  },
-
-  {
-    id: nanoid(),
     img: 'movie_db.png',
     title: 'Movie Search 🍿',
     info:
@@ -58,6 +47,17 @@ export const projectsData = [
     url: 'https://movie-db-search-react.netlify.app',
     repo: 'https://github.com/merriganj/movie-db',
   },
+
+  {
+    id: nanoid(),
+    img: 'quiz.png',
+    title: 'Multiple Category Quiz 🤔',
+    info: 'Select Sports, History or Politics. Number of questions and Level from Easy to Hard ',
+    info2: 'useState, useContext, useEffect',
+    url: 'https://react-multiple-choice-quiz.netlify.app/',
+    repo: 'https://github.com/merriganj/react-quiz',
+  },
+
   {
     id: nanoid(),
     img: 'cocktail_db.jpg',
@@ -67,6 +67,17 @@ export const projectsData = [
     info2: 'UseContext, ReactRouter',
     url: 'https://drinks-db-search-react.netlify.app/',
     repo: 'https://github.com/merriganj/Drinks-DB',
+  },
+
+  {
+    id: nanoid(),
+    img: 'hacker_news.png',
+    title: 'Hacker News 📰',
+    info:
+      'Search for news articles with pagination and remove articles from original fetch with .filter()',
+    info2: 'Pagination, useContext, useEffect, useReducer',
+    url: 'https://hacker-news-api-react-jason-merrigan.netlify.app/',
+    repo: 'https://github.com/merriganj/hacker_news',
   },
 
   {
