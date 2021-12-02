@@ -21,15 +21,27 @@ export const aboutData = {
   paragraphOne: 'Location: Dublin, Ireland 🇮🇪',
   paragraphTwo: 'Technologies used: HTML, CSS, JavaScript, React, MySQL',
   paragraphThree: 'Current Role: 2nd Level Support for VSware',
-  resume: 'https://drive.google.com/file/d/1B0vfamvQFY3NgyfsDA9xMJhIYJUTclOx/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1cMzR8xwa8R5eRZYi1fhW-UYoHOcgSk8_/view?usp=sharing',
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'sloth_store.png',
+    title: 'Furniture Store 🪑',
+    info:
+      'Browse, filter and sort products. Add them to your cart, proceed to checkout and see your total',
+    info2:
+      'Auth0 User Authentication, LocalStorage, useEffect, useContext, useReducer, ReactRouter',
+    url: 'https://github-user-search-react-auth0.netlify.app/',
+    repo: 'https://github.com/merriganj/react-github-user-search',
+  },
+
+  {
+    id: nanoid(),
     img: 'github_search.png',
-    title: 'Github User Search',
+    title: 'Github User Search 🔎',
     info:
       'Sign in with auth0 authentication and search for your favorite github users, or yourself. Display User, Followers, Languages, Most Popular Repos and more with FusionCharts',
     info2: 'Auth0 User Authentication, LocalStorage UseContext, ReactRouter, FusionCharts',

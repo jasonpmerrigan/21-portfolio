@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'Location: Dublin, Ireland',
   paragraphTwo: 'Technologies used: HTML, CSS, JavaScript, React, MySQL',
   paragraphThree: 'Current Role: 2nd Level Support for VSware',
-  resume: 'https://drive.google.com/file/d/1B0vfamvQFY3NgyfsDA9xMJhIYJUTclOx/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1cMzR8xwa8R5eRZYi1fhW-UYoHOcgSk8_/view?usp=sharing',
 };
 
 // PROJECTS DATA
