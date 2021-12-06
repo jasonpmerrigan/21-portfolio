@@ -32,8 +32,7 @@ export const projectsData = [
     title: 'Furniture Store 🪑',
     info:
       'Browse, filter and sort products. Add them to your cart, proceed to checkout and see your total',
-    info2:
-      'Auth0 User Authentication, LocalStorage, useEffect, useContext, useReducer, ReactRouter',
+    info2: 'LocalStorage, useEffect, useContext, useReducer, ReactRouter, Styled Components',
     url: 'https://react-furniture-store.netlify.app/',
     repo: 'https://github.com/merriganj/react-store',
   },
