@@ -34,8 +34,8 @@ export const projectsData = [
       'Browse, filter and sort products. Add them to your cart, proceed to checkout and see your total',
     info2:
       'Auth0 User Authentication, LocalStorage, useEffect, useContext, useReducer, ReactRouter',
-    url: 'https://github-user-search-react-auth0.netlify.app/',
-    repo: 'https://github.com/merriganj/react-github-user-search',
+    url: 'https://react-furniture-store.netlify.app/',
+    repo: 'https://github.com/merriganj/react-store',
   },
 
   {
