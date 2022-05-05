@@ -18,10 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Location: Dublin, Ireland 🇮🇪',
-  paragraphTwo: 'Technologies used: HTML, CSS, JavaScript, React, MySQL',
-  paragraphThree: 'Current Role: 2nd Level Support for VSware',
-  resume: 'https://drive.google.com/file/d/1cMzR8xwa8R5eRZYi1fhW-UYoHOcgSk8_/view?usp=sharing',
+  paragraphOne: 'Location: Dublin, Ireland',
+  paragraphTwo: 'Technologies used: HTML, CSS, JavaScript, React, React Native, MySQL',
+  paragraphThree: 'Current Role: Junior Frontend Developer for VSware',
+  resume: 'https://drive.google.com/file/d/16HziQumzvl6YRL4T9tzVplUHpMGP2C8E/view?usp=sharing',
 };
 
 // PROJECTS DATA
