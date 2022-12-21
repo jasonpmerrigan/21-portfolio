@@ -37,11 +37,14 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
+                <h4 className="about-wrapper__info-header">Location</h4>
                 <p className="about-wrapper__info-text">{paragraphOne}</p>
+                <h4 className="about-wrapper__info-header">Proficiency</h4>
                 <p className="about-wrapper__info-text">{paragraphTwo}</p>
+                <h4 className="about-wrapper__info-header">Current Role</h4>
                 <p className="about-wrapper__info-text">{paragraphThree}</p>
                 {resume && (
-                  <span className="d-flex mt-3">
+                  <span className="d-flex mt-3 mb-3">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"

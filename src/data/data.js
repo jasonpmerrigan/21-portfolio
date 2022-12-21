@@ -1,37 +1,33 @@
 import { nanoid } from 'nanoid';
 
-// HEAD DATA
 export const headData = {
-  title: 'Jason Merrigan Portfolio',
+  title: 'Jason Merrigan',
   lang: '',
   description: 'N/A',
 };
 
-// HERO DATA
 export const heroData = {
   title: '',
   name: 'Jason Merrigan',
-  subtitle: 'Junior Frontend Developer',
+  subtitle: 'Frontend Developer',
   cta: '',
 };
 
-// ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Location: Dublin, Ireland',
-  paragraphTwo: 'Technologies used: HTML, CSS, JavaScript, React, React Native, MySQL',
-  paragraphThree: 'Current Role: Junior Frontend Developer for VSware',
-  resume: 'https://drive.google.com/file/d/1Eijbua4jDV0gGoeQi-yPnzFltjopnVj_/view?usp=sharing',
+  paragraphOne: 'Dublin, Ireland 🇮🇪',
+  paragraphTwo:
+    'Vanilla Javascript, ES6+, Vue, React, React Native, Jest, Cypress, Tailwind CSS, Vuetify, Chakra UI, Git, MySQL, Scrum, Continuous Integration',
+  paragraphThree: ' Frontend Developer at ClarusONE Sourcing Services',
+  resume: 'https://drive.google.com/file/d/13_0ZKNjyvsmO_MEDHGODYWAVOiokPdza/view?usp=share_link',
 };
 
-// PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
     img: 'sloth_store.png',
     title: 'Furniture Store 🪑',
-    info:
-      'Browse, filter and sort products. Add them to your cart, proceed to checkout and see your total',
+    info: 'Browse, filter and sort products. Add them to your cart, proceed to checkout and see your total',
     info2: 'LocalStorage, useEffect, useContext, useReducer, ReactRouter, Styled Components',
     url: 'https://react-furniture-store.netlify.app/',
     repo: 'https://github.com/merriganj/react-store',
@@ -41,8 +37,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'github_search.png',
     title: 'Github User Search 🔎',
-    info:
-      'Sign in with auth0 authentication and search for your favorite github users, or yourself. Display User, Followers, Languages, Most Popular Repos and more with FusionCharts',
+    info: 'Sign in with auth0 authentication and search for your favorite github users, or yourself. Display User, Followers, Languages, Most Popular Repos and more with FusionCharts',
     info2: 'Auth0 User Authentication, LocalStorage UseContext, ReactRouter, FusionCharts',
     url: 'https://github-user-search-react-auth0.netlify.app/',
     repo: 'https://github.com/merriganj/react-github-user-search',
@@ -52,8 +47,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'movie_db.png',
     title: 'Movie Search 🍿',
-    info:
-      'Search for Movies by Title and Year. When the user clicks on the Movie Poster, they will be redirected to an info page, this was achieved with React Router.',
+    info: 'Search for Movies by Title and Year. When the user clicks on the Movie Poster, they will be redirected to an info page, this was achieved with React Router.',
     info2: 'UseContext, ReactRouter, Custom Hooks',
     url: 'https://movie-db-search-react.netlify.app',
     repo: 'https://github.com/merriganj/movie-db',
@@ -73,8 +67,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'cocktail_db.jpg',
     title: 'Cocktail Maker 🍸',
-    info:
-      'Tired of drinking the same old Beers, Craftys or Cocktails? Spice up your lockdown with my Cocktails Database ',
+    info: 'Tired of drinking the same old Beers, Craftys or Cocktails? Spice up your lockdown with my Cocktails Database ',
     info2: 'UseContext, ReactRouter',
     url: 'https://drinks-db-search-react.netlify.app/',
     repo: 'https://github.com/merriganj/Drinks-DB',
@@ -84,8 +77,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'hacker_news.png',
     title: 'Hacker News 📰',
-    info:
-      'Search for news articles with pagination and remove articles from original fetch with .filter()',
+    info: 'Search for news articles with pagination and remove articles from original fetch with .filter()',
     info2: 'Pagination, useContext, useEffect, useReducer',
     url: 'https://hacker-news-api-react-jason-merrigan.netlify.app/',
     repo: 'https://github.com/merriganj/hacker_news',
@@ -102,14 +94,12 @@ export const projectsData = [
   },
 ];
 
-// CONTACT DATA
 export const contactData = {
   cta: 'Drop me an email',
   btn: 'jasonpmerrigan@gmail.com',
   email: 'jasonpmerrigan@gmail.com',
 };
 
-// FOOTER DATA
 export const footerData = {
   networks: [
     {
