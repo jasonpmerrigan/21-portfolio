@@ -1,14 +1,16 @@
-# Hello there
+# Hello there 👋
 
-Welcome to my Personal Portfolio
+### Welcome to my Personal Portfolio
 
-## Requirements
+here you will find Information about me and my development career, Apps I have built and my CV.
 
-[Yarn](https://choosealicense.com/licenses/mit/)
+## Project Requirements
 
-- [Gatsby](https://www.gatsbyjs.com/docs/reference/gatsby-cli/)
+-- [Yarn](https://choosealicense.com/licenses/mit/)
 
-## Running the project
+-- [Gatsby](https://www.gatsbyjs.com/docs/reference/gatsby-cli/)
+
+## Running the project locally
 
 ```bash
 gatsby develop
