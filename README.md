@@ -6,9 +6,9 @@ here you will find Information about me and my development career, Apps I have b
 
 ## Project Requirements
 
--- [Yarn](https://choosealicense.com/licenses/mit/)
+1. [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
 
--- [Gatsby](https://www.gatsbyjs.com/docs/reference/gatsby-cli/)
+2. [Gatsby](https://www.gatsbyjs.com/docs/reference/gatsby-cli/)
 
 ## Running the project locally
 
