@@ -10,7 +10,7 @@ here you will find Information about me and my development career, Apps I have b
 
 2. [Gatsby](https://www.gatsbyjs.com/docs/reference/gatsby-cli/)
 
-## Running the project locally
+## Running the project on your machine
 
 ```bash
 gatsby develop
